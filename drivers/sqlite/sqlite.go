@@ -11,8 +11,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/mattermost/morph/drivers"
-	"github.com/mattermost/morph/models"
+	"github.com/isacikgoz/morph/drivers"
+	"github.com/isacikgoz/morph/models"
 	_ "modernc.org/sqlite"
 )
 

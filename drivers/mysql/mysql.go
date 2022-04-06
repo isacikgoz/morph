@@ -10,8 +10,8 @@ import (
 	"github.com/pkg/errors"
 
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/mattermost/morph/drivers"
-	"github.com/mattermost/morph/models"
+	"github.com/isacikgoz/morph/drivers"
+	"github.com/isacikgoz/morph/models"
 )
 
 const driverName = "mysql"

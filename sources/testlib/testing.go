@@ -9,8 +9,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/mattermost/morph/models"
-	"github.com/mattermost/morph/sources"
+	"github.com/isacikgoz/morph/models"
+	"github.com/isacikgoz/morph/sources"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

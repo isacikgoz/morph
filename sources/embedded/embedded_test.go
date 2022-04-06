@@ -7,8 +7,8 @@ import (
 	"embed"
 	"testing"
 
-	"github.com/mattermost/morph/sources/embedded/testdata"
-	"github.com/mattermost/morph/sources/testlib"
+	"github.com/isacikgoz/morph/sources/embedded/testdata"
+	"github.com/isacikgoz/morph/sources/testlib"
 
 	"github.com/stretchr/testify/require"
 )

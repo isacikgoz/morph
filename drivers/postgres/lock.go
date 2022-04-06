@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/isacikgoz/morph/drivers"
 	"github.com/lib/pq"
-	"github.com/mattermost/morph/drivers"
 )
 
 // Mutex is similar to sync.Mutex, except usable by morph to lock the db.

@@ -1,7 +1,7 @@
 package sources
 
 import (
-	"github.com/mattermost/morph/models"
+	"github.com/isacikgoz/morph/models"
 )
 
 type Source interface {

@@ -2,7 +2,7 @@ package mysql
 
 import (
 	mysqlDriver "github.com/go-sql-driver/mysql"
-	"github.com/mattermost/morph/drivers"
+	"github.com/isacikgoz/morph/drivers"
 )
 
 func ExtractMysqlDSNParams(conn string) (map[string]string, error) {

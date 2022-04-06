@@ -3,7 +3,7 @@ package postgres
 import (
 	"net/url"
 
-	"github.com/mattermost/morph/drivers"
+	"github.com/isacikgoz/morph/drivers"
 )
 
 func extractDatabaseNameFromURL(URL string) (string, error) {

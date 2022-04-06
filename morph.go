@@ -10,16 +10,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mattermost/morph/models"
+	"github.com/isacikgoz/morph/models"
 
-	"github.com/mattermost/morph/drivers"
-	"github.com/mattermost/morph/sources"
+	"github.com/isacikgoz/morph/drivers"
+	"github.com/isacikgoz/morph/sources"
 
-	ms "github.com/mattermost/morph/drivers/mysql"
-	ps "github.com/mattermost/morph/drivers/postgres"
+	ms "github.com/isacikgoz/morph/drivers/mysql"
+	ps "github.com/isacikgoz/morph/drivers/postgres"
 
-	_ "github.com/mattermost/morph/sources/embedded"
-	_ "github.com/mattermost/morph/sources/file"
+	_ "github.com/isacikgoz/morph/sources/embedded"
+	_ "github.com/isacikgoz/morph/sources/file"
 )
 
 var migrationProgressStart = "==  %s: migrating  ================================================="

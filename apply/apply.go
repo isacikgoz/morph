@@ -4,12 +4,12 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/mattermost/morph"
-	"github.com/mattermost/morph/drivers"
-	"github.com/mattermost/morph/drivers/mysql"
-	"github.com/mattermost/morph/drivers/postgres"
-	"github.com/mattermost/morph/drivers/sqlite"
-	"github.com/mattermost/morph/sources/file"
+	"github.com/isacikgoz/morph"
+	"github.com/isacikgoz/morph/drivers"
+	"github.com/isacikgoz/morph/drivers/mysql"
+	"github.com/isacikgoz/morph/drivers/postgres"
+	"github.com/isacikgoz/morph/drivers/sqlite"
+	"github.com/isacikgoz/morph/sources/file"
 )
 
 func Migrate(ctx context.Context, dsn, driverName, path string, options ...morph.EngineOption) error {

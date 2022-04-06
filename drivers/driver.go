@@ -1,7 +1,7 @@
 package drivers
 
 import (
-	"github.com/mattermost/morph/models"
+	"github.com/isacikgoz/morph/models"
 )
 
 type Config struct {

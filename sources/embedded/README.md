@@ -13,8 +13,8 @@ import (
 	"embed"
 	"path/filepath"
 
-    "github.com/mattermost/morph"
-    "github.com/mattermost/morph/sources/embedded"
+    "github.com/isacikgoz/morph"
+    "github.com/isacikgoz/morph/sources/embedded"
 )
 
 //go:embed testfiles
@@ -52,9 +52,9 @@ To read the embedded data, create a migration source through the
 
 ```go
 import (
-    "github.com/mattermost/morph"
-    "github.com/mattermost/morph/sources/embedded"
-    "github.com/mattermost/morph/sources/embedded/testdata"
+    "github.com/isacikgoz/morph"
+    "github.com/isacikgoz/morph/sources/embedded"
+    "github.com/isacikgoz/morph/sources/embedded/testdata"
 )
 
 func main() {

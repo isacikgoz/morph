@@ -8,9 +8,9 @@ import (
 
 	"github.com/pkg/errors"
 
+	"github.com/isacikgoz/morph/drivers"
+	"github.com/isacikgoz/morph/models"
 	_ "github.com/lib/pq"
-	"github.com/mattermost/morph/drivers"
-	"github.com/mattermost/morph/models"
 )
 
 var (

@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/mattermost/morph/sources/testlib"
+	"github.com/isacikgoz/morph/sources/testlib"
 
 	"github.com/stretchr/testify/require"
 )
